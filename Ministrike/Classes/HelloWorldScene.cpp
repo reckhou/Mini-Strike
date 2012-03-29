@@ -125,7 +125,7 @@ void HelloWorld::addTarget()
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();
     int minY = target->getContentSize().height/2;
     int maxY = winSize.height - target->getContentSize().height/2;
-    int rangeY = maxY - minY;
+    //int rangeY = maxY - minY;
     srand( (unsigned)time(NULL) );
     int actualY = ( rand() % 10 * (maxY/10)) + minY;
     int actualYfinal = ( rand() % 10 * (maxY/10)) + minY;
