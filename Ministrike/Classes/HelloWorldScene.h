@@ -11,23 +11,37 @@
 // When you import this file, you import all the cocos2d classes
 #include "cocos2d.h"
 #include "Box2D.h"
+#include "SimpleAudioEngine.h"
+#include "score.h"
 
-class HelloWorld : public cocos2d::CCLayer {
+class HelloWorld : public cocos2d::CCLayer
+{
 public:
-    ~HelloWorld();
-    HelloWorld();
+	// Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
+	virtual bool init();  
     
-    // returns a Scene that contains the HelloWorld as the only child
-    static cocos2d::CCScene* scene();
+	~HelloWorld();
+	HelloWorld();    
     
-    // adds a new sprite at a given coordinate
-    void addNewSpriteWithCoords(cocos2d::CCPoint p);
-    virtual void draw();
-    virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
-    void tick(cocos2d::ccTime dt);
+	// there's no 'id' in cpp, so we recommand to return the exactly class pointer
+	static cocos2d::CCScene* scene();
+	
+	// a selector callback
+	virtual void menuCloseCallback(CCObject* pSender);
     
-private:
-    b2World* world;
+	// implement the "static node()" method manually
+	LAYER_NODE_FUNC(HelloWorld);
+    
+    void addTarget();
+	void spriteMoveFinished(CCNode* sender);
+    void gameLogic(float dt);
+	void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
+	void update(float dt);
+protected:
+	cocos2d::CCMutableArray<cocos2d::CCSprite*> *_targets;
+	cocos2d::CCMutableArray<cocos2d::CCSprite*> *_projectiles;
+	int _targetsKilled;
+	Score* m_score;
 };
 
-#endif // __HELLO_WORLD_H__
+#endif // __HELLOWORLD_SCENE_H__

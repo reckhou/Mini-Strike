@@ -11,6 +11,7 @@
 #include "cocos2d.h"
 #include "GameMenuScene.h"
 #include "HelloWorldScene.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
 
@@ -21,6 +22,7 @@ AppDelegate::AppDelegate()
 
 AppDelegate::~AppDelegate()
 {
+    CocosDenshion::SimpleAudioEngine::end();
 }
 
 bool AppDelegate::initInstance()
@@ -85,14 +87,14 @@ bool AppDelegate::applicationDidFinishLaunching()
 	// pDirector->setDeviceOrientation(kCCDeviceOrientationLandscapeLeft);
 
 	// turn on display FPS
-	pDirector->setDisplayFPS(true);
+	//pDirector->setDisplayFPS(true);
 
 	// set FPS. the default value is 1.0/60 if you don't call this
 	pDirector->setAnimationInterval(1.0 / 60);
 
 	// create a scene. it's an autorelease object
-	//CCScene *pScene = GameMenuScene::scene();
-	CCScene *pScene = HelloWorld::scene();
+	CCScene *pScene = GameMenuScene::scene();
+	//CCScene *pScene = HelloWorld::scene();
 
 	// run
 	pDirector->runWithScene(pScene);
@@ -106,7 +108,7 @@ void AppDelegate::applicationDidEnterBackground()
     CCDirector::sharedDirector()->pause();
 
 	// if you use SimpleAudioEngine, it must be pause
-	// SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
 }
 
 // this function will be called when the app is active again
@@ -115,5 +117,5 @@ void AppDelegate::applicationWillEnterForeground()
     CCDirector::sharedDirector()->resume();
 	
 	// if you use SimpleAudioEngine, it must resume here
-	// SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
 }
