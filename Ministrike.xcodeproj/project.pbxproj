@@ -226,6 +226,12 @@
 		4BED59C81521FA53006ED978 /* win.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BED59A11521FA53006ED978 /* win.jpg */; };
 		4BED59C91521FA53006ED978 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4BED59A21521FA53006ED978 /* win.wav */; };
 		4BED59CC1521FB43006ED978 /* GameMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED59CA1521FB43006ED978 /* GameMenuScene.cpp */; };
+		4BED5E1D1522074D006ED978 /* BaseActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5E1C1522074D006ED978 /* BaseActor.cpp */; };
+		4BED5E211522C809006ED978 /* score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5E1F1522C808006ED978 /* score.cpp */; };
+		4BED5E261522D8A1006ED978 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5E221522D8A0006ED978 /* GameOverScene.cpp */; };
+		4BED5E271522D8A1006ED978 /* WinScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5E241522D8A0006ED978 /* WinScene.cpp */; };
+		4BED5E291522F594006ED978 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED5E281522F593006ED978 /* 111.png */; };
+		4BED5E2B1522F674006ED978 /* 222.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED5E2A1522F674006ED978 /* 222.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -641,6 +647,16 @@
 		4BED59CA1521FB43006ED978 /* GameMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameMenuScene.cpp; path = Classes/GameMenuScene.cpp; sourceTree = "<group>"; };
 		4BED59CB1521FB43006ED978 /* GameMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMenuScene.h; path = Classes/GameMenuScene.h; sourceTree = "<group>"; };
 		4BED59CD1521FB66006ED978 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defines.h; path = Classes/defines.h; sourceTree = "<group>"; };
+		4BED5E1C1522074D006ED978 /* BaseActor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseActor.cpp; path = Classes/BaseActor.cpp; sourceTree = "<group>"; };
+		4BED5E1E15220764006ED978 /* BaseActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseActor.h; path = Classes/BaseActor.h; sourceTree = "<group>"; };
+		4BED5E1F1522C808006ED978 /* score.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = score.cpp; path = Classes/score.cpp; sourceTree = "<group>"; };
+		4BED5E201522C808006ED978 /* score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = score.h; path = Classes/score.h; sourceTree = "<group>"; };
+		4BED5E221522D8A0006ED978 /* GameOverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameOverScene.cpp; path = Classes/GameOverScene.cpp; sourceTree = "<group>"; };
+		4BED5E231522D8A0006ED978 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Classes/GameOverScene.h; sourceTree = "<group>"; };
+		4BED5E241522D8A0006ED978 /* WinScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WinScene.cpp; path = Classes/WinScene.cpp; sourceTree = "<group>"; };
+		4BED5E251522D8A0006ED978 /* WinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinScene.h; path = Classes/WinScene.h; sourceTree = "<group>"; };
+		4BED5E281522F593006ED978 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		4BED5E2A1522F674006ED978 /* 222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 222.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -665,6 +681,8 @@
 		4BED57191521F93F006ED978 = {
 			isa = PBXGroup;
 			children = (
+				4BED5E2A1522F674006ED978 /* 222.png */,
+				4BED5E281522F593006ED978 /* 111.png */,
 				4BED57381521F93F006ED978 /* Ministrike */,
 				4BED57271521F93F006ED978 /* Frameworks */,
 				4BED57251521F93F006ED978 /* Products */,
@@ -1429,13 +1447,21 @@
 		4BED596E1521F943006ED978 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4BED5E221522D8A0006ED978 /* GameOverScene.cpp */,
+				4BED5E231522D8A0006ED978 /* GameOverScene.h */,
+				4BED5E241522D8A0006ED978 /* WinScene.cpp */,
+				4BED5E251522D8A0006ED978 /* WinScene.h */,
 				4BED59CD1521FB66006ED978 /* defines.h */,
+				4BED5E1F1522C808006ED978 /* score.cpp */,
+				4BED5E201522C808006ED978 /* score.h */,
 				4BED59CA1521FB43006ED978 /* GameMenuScene.cpp */,
 				4BED59CB1521FB43006ED978 /* GameMenuScene.h */,
 				4BED596F1521F943006ED978 /* AppDelegate.h */,
 				4BED59701521F943006ED978 /* AppDelegate.cpp */,
 				4BED59721521F943006ED978 /* HelloWorldScene.h */,
 				4BED59731521F943006ED978 /* HelloWorldScene.cpp */,
+				4BED5E1C1522074D006ED978 /* BaseActor.cpp */,
+				4BED5E1E15220764006ED978 /* BaseActor.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1541,6 +1567,8 @@
 				4BED59C71521FA53006ED978 /* whickedsick.mp3 in Resources */,
 				4BED59C81521FA53006ED978 /* win.jpg in Resources */,
 				4BED59C91521FA53006ED978 /* win.wav in Resources */,
+				4BED5E291522F594006ED978 /* 111.png in Resources */,
+				4BED5E2B1522F674006ED978 /* 222.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1711,6 +1739,10 @@
 				4BED59711521F943006ED978 /* AppDelegate.cpp in Sources */,
 				4BED59741521F943006ED978 /* HelloWorldScene.cpp in Sources */,
 				4BED59CC1521FB43006ED978 /* GameMenuScene.cpp in Sources */,
+				4BED5E1D1522074D006ED978 /* BaseActor.cpp in Sources */,
+				4BED5E211522C809006ED978 /* score.cpp in Sources */,
+				4BED5E261522D8A1006ED978 /* GameOverScene.cpp in Sources */,
+				4BED5E271522D8A1006ED978 /* WinScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1721,8 +1753,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEBUG,
@@ -1747,8 +1782,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
 					USE_FILE32API,
@@ -1826,6 +1864,7 @@
 				4BED597B1521F943006ED978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
