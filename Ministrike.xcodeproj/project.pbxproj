@@ -188,7 +188,6 @@
 		4BED59711521F943006ED978 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED59701521F943006ED978 /* AppDelegate.cpp */; };
 		4BED59741521F943006ED978 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED59731521F943006ED978 /* HelloWorldScene.cpp */; };
 		4BED59761521F943006ED978 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED59751521F943006ED978 /* blocks.png */; };
-		4BED59A31521FA53006ED978 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED597C1521FA52006ED978 /* blocks.png */; };
 		4BED59A41521FA53006ED978 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED597D1521FA52006ED978 /* CloseNormal.png */; };
 		4BED59A51521FA53006ED978 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED597E1521FA52006ED978 /* CloseSelected.png */; };
 		4BED59A61521FA53006ED978 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED597F1521FA52006ED978 /* Default.png */; };
@@ -606,7 +605,6 @@
 		4BED59721521F943006ED978 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		4BED59731521F943006ED978 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		4BED59751521F943006ED978 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
-		4BED597C1521FA52006ED978 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
 		4BED597D1521FA52006ED978 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseNormal.png; path = Resources/CloseNormal.png; sourceTree = "<group>"; };
 		4BED597E1521FA52006ED978 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseSelected.png; path = Resources/CloseSelected.png; sourceTree = "<group>"; };
 		4BED597F1521FA52006ED978 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
@@ -726,7 +724,6 @@
 		4BED57391521F93F006ED978 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4BED597C1521FA52006ED978 /* blocks.png */,
 				4BED597D1521FA52006ED978 /* CloseNormal.png */,
 				4BED597E1521FA52006ED978 /* CloseSelected.png */,
 				4BED597F1521FA52006ED978 /* Default.png */,
@@ -1526,7 +1523,6 @@
 				4BED574D1521F93F006ED978 /* Icon@2x.png in Resources */,
 				4BED57501521F93F006ED978 /* iTunesArtwork in Resources */,
 				4BED59761521F943006ED978 /* blocks.png in Resources */,
-				4BED59A31521FA53006ED978 /* blocks.png in Resources */,
 				4BED59A41521FA53006ED978 /* CloseNormal.png in Resources */,
 				4BED59A51521FA53006ED978 /* CloseSelected.png in Resources */,
 				4BED59A61521FA53006ED978 /* Default.png in Resources */,
