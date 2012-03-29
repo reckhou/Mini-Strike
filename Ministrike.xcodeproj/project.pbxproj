@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B72F2E91524BC63008B7E9C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B72F2E81524BC63008B7E9C /* icon.png */; };
+		4B72F2EB1524BC6D008B7E9C /* icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B72F2EA1524BC6D008B7E9C /* icon_retina.png */; };
 		4BED57291521F93F006ED978 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BED57281521F93F006ED978 /* QuartzCore.framework */; };
 		4BED572B1521F93F006ED978 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BED572A1521F93F006ED978 /* OpenGLES.framework */; };
 		4BED572D1521F93F006ED978 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BED572C1521F93F006ED978 /* OpenAL.framework */; };
@@ -230,11 +232,11 @@
 		4BED5E211522C809006ED978 /* score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5E1F1522C808006ED978 /* score.cpp */; };
 		4BED5E261522D8A1006ED978 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5E221522D8A0006ED978 /* GameOverScene.cpp */; };
 		4BED5E271522D8A1006ED978 /* WinScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BED5E241522D8A0006ED978 /* WinScene.cpp */; };
-		4BED5E291522F594006ED978 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED5E281522F593006ED978 /* 111.png */; };
-		4BED5E2B1522F674006ED978 /* 222.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BED5E2A1522F674006ED978 /* 222.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B72F2E81524BC63008B7E9C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4B72F2EA1524BC6D008B7E9C /* icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_retina.png; sourceTree = "<group>"; };
 		4BED57241521F93F006ED978 /* Ministrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ministrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BED57281521F93F006ED978 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4BED572A1521F93F006ED978 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -254,7 +256,6 @@
 		4BED57481521F93F006ED978 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
 		4BED574A1521F93F006ED978 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		4BED574C1521F93F006ED978 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
-		4BED574E1521F93F006ED978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		4BED574F1521F93F006ED978 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		4BED57541521F93F006ED978 /* CCAction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CCAction.cpp; path = libs/cocos2dx/actions/CCAction.cpp; sourceTree = "<group>"; };
 		4BED57561521F93F006ED978 /* CCActionCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CCActionCamera.cpp; path = libs/cocos2dx/actions/CCActionCamera.cpp; sourceTree = "<group>"; };
@@ -655,8 +656,6 @@
 		4BED5E231522D8A0006ED978 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Classes/GameOverScene.h; sourceTree = "<group>"; };
 		4BED5E241522D8A0006ED978 /* WinScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WinScene.cpp; path = Classes/WinScene.cpp; sourceTree = "<group>"; };
 		4BED5E251522D8A0006ED978 /* WinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinScene.h; path = Classes/WinScene.h; sourceTree = "<group>"; };
-		4BED5E281522F593006ED978 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
-		4BED5E2A1522F674006ED978 /* 222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 222.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -681,8 +680,8 @@
 		4BED57191521F93F006ED978 = {
 			isa = PBXGroup;
 			children = (
-				4BED5E2A1522F674006ED978 /* 222.png */,
-				4BED5E281522F593006ED978 /* 111.png */,
+				4B72F2EA1524BC6D008B7E9C /* icon_retina.png */,
+				4B72F2E81524BC63008B7E9C /* icon.png */,
 				4BED57381521F93F006ED978 /* Ministrike */,
 				4BED57271521F93F006ED978 /* Frameworks */,
 				4BED57251521F93F006ED978 /* Products */,
@@ -776,7 +775,6 @@
 				4BED57481521F93F006ED978 /* Icon-Small@2x.png */,
 				4BED574A1521F93F006ED978 /* Icon.png */,
 				4BED574C1521F93F006ED978 /* Icon@2x.png */,
-				4BED574E1521F93F006ED978 /* Info.plist */,
 				4BED574F1521F93F006ED978 /* iTunesArtwork */,
 				4BED59751521F943006ED978 /* blocks.png */,
 			);
@@ -1567,8 +1565,8 @@
 				4BED59C71521FA53006ED978 /* whickedsick.mp3 in Resources */,
 				4BED59C81521FA53006ED978 /* win.jpg in Resources */,
 				4BED59C91521FA53006ED978 /* win.wav in Resources */,
-				4BED5E291522F594006ED978 /* 111.png in Resources */,
-				4BED5E2B1522F674006ED978 /* 222.png in Resources */,
+				4B72F2E91524BC63008B7E9C /* icon.png in Resources */,
+				4B72F2EB1524BC6D008B7E9C /* icon_retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
